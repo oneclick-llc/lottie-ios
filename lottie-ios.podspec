@@ -17,10 +17,10 @@ Lottie is a mobile library for Android and iOS that parses Adobe After Effects a
 Lottie enables designers to create and ship beautiful animations without an engineer painstakingly recreating it be hand. Since the animation is backed by JSON they are extremely small in size but can be large in complexity! Animations can be played, resized, looped, sped up, slowed down, and even interactively scrubbed.
   DESC
 
-  s.homepage         = 'https://github.com/airbnb/lottie-ios'
+  s.homepage         = 'https://github.com/oneclick-llc/lottie-ios.git'
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.author           = { 'Brandon Withrow' => 'buba447@gmail.com', 'Cal Stephens' => 'cal.stephens@airbnb.com' }
-  s.source           = { :git => 'https://github.com/airbnb/lottie-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:oneclick-llc/lottie-ios.git', :tag => s.version.to_s }
 
   s.swift_version = '5.9'
   s.ios.deployment_target = '13.0'
